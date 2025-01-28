@@ -1,0 +1,53 @@
+name: assignment_1
+description: "An Assignment Project of Design"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  gradient_borders: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image/
+    - assets/icon/
+  fonts:
+    - family: Akatab
+      fonts:
+        - asset: assets/font/akatab/Akatab-Regular.ttf
+          weight: 400
+        - asset: assets/font/akatab/Akatab-Medium.ttf
+          weight: 500
+        - asset: assets/font/akatab/Akatab-Bold.ttf
+          weight: 700
+        - asset: assets/font/akatab/Akatab-Black.ttf
+          weight: 900
+    - family: Roboto
+      fonts:
+        - asset: assets/font/roboto/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/font/roboto/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/font/roboto/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/font/roboto/Roboto-Black.ttf
+          weight: 900
+
